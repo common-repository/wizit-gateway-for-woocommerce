@@ -1,0 +1,59 @@
+
+img.wizit-payment-logo{
+	/* max-width: 100px; */
+    /* max-height: 30px; */
+    padding-top: 5px;
+    border: none !important;
+	vertical-align: bottom;
+	max-width: 50px  !important; 
+}
+
+
+.wizit-logo-inline{
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.wizit-logo-block{
+	display: block;
+	
+}
+
+.wizit-form-row.wizit-form-row-wide h5 {	 
+	font-weight: 600;
+}
+
+
+.wizit-custom-payfields .wizit-row{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.wizit-custom-payfields .wizit-row .wizit-col-3{
+	flex: 0 0 auto;
+    width: 25%;
+}
+
+
+.wizit-custom-payfields .wizit-installment1 , 
+.wizit-custom-payfields .wizit-installment2 , 
+.wizit-custom-payfields .wizit-installment3 , 
+.wizit-custom-payfields .wizit-installment4  { 
+	font-size:18px !important; 
+}
+
+
+.storefront-featured-products .featured .wizit-widget{
+	display: none;
+}
+
+
+
+
+@media screen and (max-width: 576px) {
+	.wizit-custom-payfields .wizit-row .wizit-col-sm-6 {
+	    flex: 0 0 auto;
+	    width: 50%;
+	}
+}

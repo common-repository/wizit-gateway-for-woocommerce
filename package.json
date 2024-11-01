@@ -1,0 +1,23 @@
+{
+	"name": "woocommerce-wizit-gateway",
+	"title": "Wizit Gateway for WooCommerce",
+	"version": "1.0.6",
+	"author": "Wizit",
+	"license": "GNU General Public License v3.0",
+	"keywords": [],
+	"engines": {
+		"node": ">=6.9.4",
+		"npm": ">=1.1.0"
+	},
+	"devDependencies": {
+		"@woocommerce/dependency-extraction-webpack-plugin": "^2.2.0",
+		"@wordpress/scripts": "^27.2.0",
+		"cross-env": "7.0.3"
+	},
+	"scripts": {
+		"start": "wp-scripts start",
+		"build": "wp-scripts build",
+		"packages-update": "wp-scripts packages-update",
+		"check-engines": "wp-scripts check-engines"
+	}
+}
